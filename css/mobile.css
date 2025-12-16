@@ -45,4 +45,10 @@
     gap: 20px;
     
 }
+.gallery .gallery-images{
+    grid-template-columns: 1fr;
+}
+.socials a{
+    font-size: 1rem;
+}
 }
