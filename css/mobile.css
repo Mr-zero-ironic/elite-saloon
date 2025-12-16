@@ -40,15 +40,9 @@
   display: flex;
 
 }
+.service-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
     
 }
-
-
-@media  screen and (max-width:900px) {
-    .nav-bar{
-        justify-content: space-between;
-    }
-    .nav-bar .nav-links{
-        gap: 10px;
-    }
 }

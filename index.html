@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar" >
         <div class="nav-left">
             <div class="logo"><h1>Elite's Salon</h1></div>
         </div>
         <div class="nav-right">
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <button class="btn">whatsapp us</button>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">Why choose us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button class="btn" id="wa-btn">whatsapp us</button>
+                <img src="assets/img/sun-fill.png" alt="theme-icon" id="theme-btn"></img>
             </ul>
 
         </div>
@@ -30,30 +30,79 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <h2>Welcome to Elite's Salon</h2>
             <p>Your beauty is our duty. Experience top-notch salon services tailored just for you.</p>
-            <a href="Services.html" class="btn">Explore Our Services</a>
+            <a href="#services" class="btn">Explore Our Services</a>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <h2>Our Services</h2>
         <div class="service-cards">
             <div class="service-card">
                 <h3>Haircuts & Styling</h3>
+                <img src="assets/img/hair-style.jpg" alt="hair-cut image here">
                 <p>Get the perfect haircut and style that suits your personality.</p>
             </div>
             <div class="service-card">
                 <h3>Facials & Skincare</h3>
+                <img src="assets/img/Facial.png" alt="facial image here">
                 <p>Pamper your skin with our rejuvenating facial treatments.</p>
             </div>
             <div class="service-card">
                 <h3>Manicure & Pedicure</h3>
+                <img src="assets/img/manicure.jpg" alt="manicure image here">
                 <p>Keep your nails looking flawless with our manicure and pedicure services.</p>
             </div>
         </div>
     </section>
+    <section id="about">
+        <h2>Why Choose Us</h2>
+        <p>At Elite’s Salon, we believe beauty is personal and every client deserves care, comfort, and attention. Our experienced stylists take the time to understand your style and preferences, delivering services that enhance your confidence and leave you feeling refreshed. With a calm environment, high hygiene standards, and quality products, we ensure every visit is relaxing and rewarding.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Experienced Stylists</h3>
+                <p>Our team consists of highly skilled and experienced professionals.</p>
+            </div>
+            <div class="feature">
+                <h3>Quality Products</h3>
+                <p>We use only the best products to ensure top-notch service.</p>
+            </div>
+            <div class="feature">
+                <h3>Customer Satisfaction</h3>
+                <p>Your satisfaction is our priority. We strive to exceed your expectations.</p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="assets/img/gallery-1.jpg" alt="Gallery Image 1">
+            <img src="assets/img/gallery-2.jpg" alt="Gallery Image 2">
+            <img src="assets/img/gallery-3.jpg" alt="Gallery Image 3">
+            <img src="assets/img/gallery-4.jpg" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45533.640455938956!2d71.14719824631581!3d30.071613556649464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b3385cf668eb5%3A0x5593b6c8964dfd7d!2sJugnu&#39;s%20Salon%20Multan%20%7C%20Best%20Salon%20in%20Multan!5e1!3m2!1sen!2s!4v1765889124122!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div id="contact">
+            <h3>Contact Us</h3>
+            <p>Phone: +123 456 7890</p>
+            <p>Email:elite@ggamil.com</p>
+            <p>Address: 123 Beauty St, Glamour City</p>
+            <div class="socials">
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a> |
+                <a href="#">Twitter</a>
+                <a href="http://wa.me/923233341296">whatsapp</a>
+
+            </div>
+            </div>
+        <p>&copy; 2024 Elite's Salon. All rights reserved.</p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
